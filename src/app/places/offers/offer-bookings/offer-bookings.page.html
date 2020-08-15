@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{place.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button
+    class="ion-margin"
+    color="primary"
+    [routerLink]="['/','places','tabs','offers','edit',place.id]"
+    >Edit</ion-button
+  >
+</ion-content>
